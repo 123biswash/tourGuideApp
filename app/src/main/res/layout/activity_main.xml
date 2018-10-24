@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical"
+        tools:context="com.example.android.miwok.MainActivity">
+
+        <Button
+            android:id="@+id/lincoln"
+            style="@style/CategoryStyle"
+            android:background="@color/category_numbers"
+            android:text="@string/category_numbers" />
+
+        <Button
+            android:id="@+id/bars"
+            style="@style/CategoryStyle"
+            android:background="@color/category_family"
+            android:text="@string/category_family" />
+
+        <Button
+            android:id="@+id/capitol"
+            style="@style/CategoryStyle"
+            android:background="@color/category_colors"
+            android:text="@string/category_colors" />
+
+        <Button
+            android:id="@+id/whitehouse"
+            style="@style/CategoryStyle"
+            android:background="@color/category_phrases"
+            android:text="@string/category_phrases" />
+
+        <ImageView
+            android:id="@+id/simpleImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/washington" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
